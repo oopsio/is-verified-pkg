@@ -1,0 +1,7 @@
+title: is-verified-pkg
+description: High-performance OIDC provenance verification for npm packages.
+baseurl: "" 
+url: "https://oopsio.github.io/is-verified-pkg"
+
+plugins:
+  - jekyll-seo-tag
