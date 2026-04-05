@@ -1,13 +1,6 @@
-A professional README for a security utility should be concise, technical, and focused on implementation. Here is a `README.md` tailored for your v1.0.0 release.
-
------
-
 # is-verified-pkg
 
 **Lightweight utility to verify if an npm package was published via a Trusted Publisher (OIDC/Provenance).**
-
-[](https://www.google.com/search?q=https://www.npmjs.com/package/is-verified-pkg)
-[](https://www.google.com/search?q=https://github.com/youruser/is-verified-pkg/blob/main/LICENSE)
 
 ## Overview
 
