@@ -1,0 +1,35 @@
+{
+  "name": "is-verified-pkg",
+  "version": "1.0.0",
+  "description": "Checks for OIDC provenance on npm packages",
+  "bin": {
+    "is-verified-pkg": "./dist/cli.mjs"
+  },
+  "files": [
+    "dist/**",
+    "LICENSE",
+    "README.md"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "bun build.js",
+    "test": "bun test.js",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "oxlint": "^1.58.0",
+    "picocolors": "^1.1.1"
+  }
+}
