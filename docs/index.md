@@ -35,4 +35,4 @@ if (ok) console.log('Package is verified');
 
 -----
 
-[View the API Documentation](/docs)
+[View the API Documentation](/is-verified-pkg/docs)
